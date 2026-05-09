@@ -18,14 +18,14 @@ if(result){
     console.log("Điều kiện đúng");
 }
 else{
-    console.log("Điều kiện sai");
+    console.log("Điều kiện sai"); 
 }
 
 //toán tử || trả về giá trị đầu tiên nếu nó đúng, ngược lại trả về giá trị cuối cùng
 let result2 = '' || 0 || null || undefined || NaN || 'c';
 console.log(result2); 
 if(result2){
-    console.log("Điều kiện đúng");
+    console.log(`Điều kiện đúng ${result2}`);
 }
 else{
     console.log("Điều kiện sai");
