@@ -49,12 +49,12 @@ console.log(sv.getName()); // Output: Johnson
 sv.setName("Smith");
 sv.setName(123); // Output: Name must be a string
 const students = [sv, sv2];
-// for(const sv1 of Object.values(sv)) { // lấy value của obj sv
-//     console.log(sv1);
-// }
-// for (const key in sv) { // lấy key của obj sv
-//     console.log(key);
-// }
+for(const sv1 of Object.values(sv)) { // lấy value của obj sv
+    console.log(sv1);
+}
+for (const key in sv) { // lấy key của obj sv
+    console.log(key);
+}
 for(const [key, value] of Object.entries(sv)) { // lấy key và value của obj sv
     console.log(`${key} và ${value}`);
 }
