@@ -14,4 +14,4 @@ console.log(fullName.includes("Doe")) // true
 console.log(fullName.startsWith("John")) // true
 console.log(fullName.endsWith("Doe")) // true   
 console.log(fullName.concat(" is a developer.")) // John Doe is a developer.
-console.log(fullName.toLocaleLowerCase) // cái này lowercase theo vị trí người dùng
+console.log(fullName.toLocaleLowerCase('vi-VN')) // cái này lowercase theo vị trí người dùng
