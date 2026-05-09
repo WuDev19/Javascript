@@ -12,6 +12,11 @@
 // ];
 
 const myArray = [1, 2, 3, 4, 5];
+const tmp = myArray.map((value, index) => {
+    return value * 2;
+})
+console.log(tmp);
+
 for (let i = 0, j = myArray.length - 1; i < myArray.length && j >= 0; i++, j--) {
     console.log(`${myArray[i]} và ${myArray[j]}`); 
 }
